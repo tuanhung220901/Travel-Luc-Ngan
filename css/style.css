@@ -102,7 +102,7 @@ section {
 }
 
 .header .navbar a:hover {
-  color: #111;
+  /* color: #111; */
 }
 
 .header .btn {
@@ -134,7 +134,7 @@ section {
   /* border-radius: 1rem; */
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(../images/home-bg.jpg) no-repeat;
   /* background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/458791.jpg) no-repeat; */
-  background: linear-gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.2)),url(../images/banner/banner/6-Ho-Cam-Son-1656785464.jpg) no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.5)),url(../images/banner/banner/6-Ho-Cam-Son-1656785464.jpg) no-repeat;
   background-size: 100% 100%;
   background-position: center;
   display: -webkit-box;

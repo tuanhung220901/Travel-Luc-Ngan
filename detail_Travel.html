@@ -20,6 +20,38 @@
     <meta property="fb:app_id" content="478080847586201" />
 </head>
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v15.0&appId=478080847586201&autoLogAppEvents=1" nonce="eFfsdSRr"></script>
+    <!-- Messenger Chat plugin Code -->
+   <div id="fb-root"></div>
+
+   <!-- Your Chat plugin code -->
+   <div id="fb-customer-chat" class="fb-customerchat">
+   </div>
+
+   <script>
+     var chatbox = document.getElementById('fb-customer-chat');
+     chatbox.setAttribute("page_id", "105251125707719");
+     chatbox.setAttribute("attribution", "biz_inbox");
+   </script>
+
+   <!-- Your SDK code -->
+   <script>
+     window.fbAsyncInit = function() {
+       FB.init({
+         xfbml            : true,
+         version          : 'v15.0'
+       });
+     };
+
+     (function(d, s, id) {
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) return;
+       js = d.createElement(s); js.id = id;
+       js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+   </script>
     <!-- Header--> 
     <header class="header">
 
@@ -41,19 +73,23 @@
     </header>
    <!-- Content -->
    <div class="content-detail-travel">
-        <div class="backgroud-detail-travel"></div>
+        <div class="backgroud-detail-travel">
+            <img class="img" src="./images/ChuaKhanhVan/Chùa Khánh Vân 1.JPG" alt="">
+            <img class="img" src="./images/ChuaKhanhVan/Chùa Khánh Vân 3.JPG" alt="">
+            <img class="img" src="./images/ChuaKhanhVan/Chùa Khánh Vân 4.JPG" alt="">
+        </div>
         <div class="content-travel">
-            <h2 class="title-1">Am Vãi</h2>
+            <h2 class="title-1">Chùa Khánh Vân</h2>
             <h3 class="title-2">Địa điểm</h3>
-            <div class="content-2">-Nằm soi bóng bên dòng Nhật Đức (sông Lục Nam, đoạn chảy qua phố Chũ) là cụm di tích đền - chùa Khánh Vân thuộc khu Hà Thị, thị trấn Chũ, huyện Lục Ngạn, tỉnh Bắc Giang.
-                -Đền Khánh Vân (trước đây gọi là đền Quan Quận) là nơi thờ tướng quân Vi Hùng Thắng, một vị tướng của vùng Lục Ngạn đã có công đánh giặc Nguyên Mông vào thế kỷ 13. Chùa Khánh Vân là nơi thờ Phật, nơi sinh hoạt tín ngưỡng tâm linh của nhân dân địa phương. Quần thể công trình tín ngưỡng đền - chùa Khánh Vân đã được công nhận di tích lịch sử văn hoá cấp tỉnh từ năm 1996.
-                -Lễ hội đền - chùa Khánh Vân tổ chức vào ngày 19 và 20 tháng 2 âm lịch hàng năm nhằm tôn vinh, tưởng nhớ công lao của Tướng quân đan xen các hoạt động văn hoá, các trò chơi dân gian truyền thống nhằm bảo tồn và phát huy bản sắc văn hoá, giáo dục truyền thống cho các thế hệ.
+            <div class="content-2">- Nằm soi bóng bên dòng Nhật Đức (sông Lục Nam, đoạn chảy qua phố Chũ) là cụm di tích đền - chùa Khánh Vân thuộc khu Hà Thị, thị trấn Chũ, huyện Lục Ngạn, tỉnh Bắc Giang.
+                - Đền Khánh Vân (trước đây gọi là đền Quan Quận) là nơi thờ tướng quân Vi Hùng Thắng, một vị tướng của vùng Lục Ngạn đã có công đánh giặc Nguyên Mông vào thế kỷ 13. Chùa Khánh Vân là nơi thờ Phật, nơi sinh hoạt tín ngưỡng tâm linh của nhân dân địa phương. Quần thể công trình tín ngưỡng đền - chùa Khánh Vân đã được công nhận di tích lịch sử văn hoá cấp tỉnh từ năm 1996.
+                - Lễ hội đền - chùa Khánh Vân tổ chức vào ngày 19 và 20 tháng 2 âm lịch hàng năm nhằm tôn vinh, tưởng nhớ công lao của Tướng quân đan xen các hoạt động văn hoá, các trò chơi dân gian truyền thống nhằm bảo tồn và phát huy bản sắc văn hoá, giáo dục truyền thống cho các thế hệ.
                 </div>
-            <img class="img-detail-travel" src="" alt="">
+            <img class="img-detail-travel" src="./images/ChuaKhanhVan/Chùa Khánh Vân 1.JPG" alt="">
             <h3 class="title-2">Hiện trạng</h3>
-            <div class="content-2">-Ngày nay, cụm di tích đền - chùa Khánh Vân khang trang đẹp đẽ vẫn là nơi sinh hoạt tâm linh, tín ngưỡng trong vùng và là niềm tự hào của nhân dân thị trấn Chũ; đặc biệt vào dịp lễ hội, đền - chùa Khánh Vân là điểm đến chiêm bái, vãn cảnh của đông đảo du khách trong và ngoài tỉnh</div>
-            <img class="img-detail-travel" src="" alt="">
-            
+            <div class="content-2">- Ngày nay, cụm di tích đền - chùa Khánh Vân khang trang đẹp đẽ vẫn là nơi sinh hoạt tâm linh, tín ngưỡng trong vùng và là niềm tự hào của nhân dân thị trấn Chũ; đặc biệt vào dịp lễ hội, đền - chùa Khánh Vân là điểm đến chiêm bái, vãn cảnh của đông đảo du khách trong và ngoài tỉnh</div>
+            <img class="img-detail-travel" src="./images/ChuaKhanhVan/Chùa Khánh Vân 3.JPG" alt="">
+            <div class="fb-comments" data-href="https://tuanhung220901.github.io/Travel-Luc-Ngan/" data-width="100%" data-numposts="5"></div>
         </div>
    </div>
     <!-- Footer -->
@@ -102,8 +138,6 @@
         </div>
     
     </section>
-    
-    <div class="credit">created by TuanHung | all rights reserved!</div>
     <script src="./js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
