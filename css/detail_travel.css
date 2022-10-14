@@ -1,0 +1,24 @@
+.content-detail-travel{
+    width: 100%;
+}
+.backgroud-detail-travel{
+    width: 100%;
+    min-height: 60vh;
+    background-color: red;
+}
+.content-travel{
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    height: 500px;
+    margin-top: 50px;
+    white-space: pre-line;
+    
+}
+.content-2{
+    /* text-align: left; */
+}
+.title-1{
+    font-size: 30px;
+    color: #8aa7d6;
+}

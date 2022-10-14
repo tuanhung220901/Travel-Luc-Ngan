@@ -30,7 +30,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #8badd4;
+  background: #689748;
   border-radius: 5rem;
 }
 
@@ -49,13 +49,13 @@ section {
 }
 
 .heading span {
-  color: #8badd4;
+  color: #689748;
   font-size: 2rem;
 }
 
 .heading h1 {
   font-size: 4rem;
-  color: #8badd4;
+  color: #689748;
 }
 
 .btn {
@@ -72,7 +72,7 @@ section {
 
 .btn:hover {
   background: #ffffff;
-  color: #8badd4;
+  color: #689748;
 }
 
 .header {
@@ -81,7 +81,7 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: #8badd4;
+  background: #689748;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,17 +130,17 @@ section {
 .home {
   margin: 0 auto;
   margin-top: 9rem;
-  width: 100%;
+  width: 90%;
   /* border-radius: 1rem; */
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(../images/home-bg.jpg) no-repeat;
   /* background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/458791.jpg) no-repeat; */
-  background: linear-gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.7)), url(../images/458791.jpg) no-repeat;
-  background-size: cover;
+  background: linear-gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.2)),url(../images/banner/banner/6-Ho-Cam-Son-1656785464.jpg) no-repeat;
+  background-size: 100% 100%;
   background-position: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 90vh;
+  min-height: 80vh;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -149,6 +149,7 @@ section {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 5rem;
+  border-radius: 2rem;
 }
 
 .home .content {
@@ -214,7 +215,7 @@ section {
   width: 100%;
   padding: 1.2rem 1.4rem;
   border-radius: 5rem;
-  border: 0.2rem solid #8badd4;
+  border: 0.2rem solid #689748;
   font-size: 1.6rem;
   color: #111;
   text-transform: none;
@@ -265,11 +266,11 @@ section {
   background: #fff;
   cursor: pointer;
   margin: .7rem;
-  border: 1px solid #8badd4;
+  border: 1px solid #689748;
 }
 
 .about .video-container .controls span:hover {
-  background: #8badd4;
+  background: #689748;
 }
 
 .about .content {
@@ -280,12 +281,12 @@ section {
 }
 
 .about .content span {
-  color: #8badd4;
+  color: #689748;
   font-size: 2rem;
 }
 
 .about .content h3 {
-  color: #8badd4;
+  color: #689748;
   font-size: 4rem;
   margin-top: .5rem;
 }
@@ -336,7 +337,7 @@ section {
 
 .destination .box-container .box .content h3 {
   font-size: 2rem;
-  color: #8badd4;
+  color: #689748;
 }
 
 .destination .box-container .box .content p {
@@ -348,7 +349,7 @@ section {
 
 .destination .box-container .box .content a {
   font-size: 1.7rem;
-  color: #8badd4;
+  color: #689748;
 }
 
 .destination .box-container .box .content a:hover i {
@@ -372,22 +373,22 @@ section {
   border-radius: 1rem;
   padding: 3rem;
   text-align: center;
-  border: 0.2rem solid #8badd4;
+  border: 0.2rem solid #689748;
 }
 
 .services .box-container .box:hover {
-  border: 0.2rem solid #8badd4;
+  border: 0.2rem solid #689748;
 }
 
 .services .box-container .box i {
   font-size: 4rem;
-  color: #8badd4;
+  color: #689748;
   margin-bottom: 2rem;
 }
 
 .services .box-container .box h3 {
   font-size: 2rem;
-  color: #8badd4;
+  color: #689748;
 }
 
 .services .box-container .box p {
@@ -447,7 +448,7 @@ section {
 
 .review .content span {
   font-size: 2rem;
-  color: #8badd4;
+  color: #689748;
 }
 
 .review .content h3 {
@@ -485,7 +486,7 @@ section {
 }
 
 .review .box-container .box:hover {
-  border: 0.2rem solid #8badd4;
+  border: 0.2rem solid #689748;
 }
 
 .review .box-container .box p {
@@ -559,11 +560,11 @@ section {
 
 .blogs .box-container .box .content .link {
   font-size: 2rem;
-  color: #8badd4;
+  color: #689748;
 }
 
 .blogs .box-container .box .content .link:hover {
-  color: #8badd4;
+  color: #689748;
 }
 
 .blogs .box-container .box .content p {
@@ -592,12 +593,12 @@ section {
 }
 
 .blogs .box-container .box .content .icon a:hover {
-  color: #8badd4;
+  color: #689748;
 }
 
 .blogs .box-container .box .content .icon a i {
   padding-right: .5rem;
-  color: #8badd4;
+  color: #689748;
 }
 
 .banner {
@@ -612,7 +613,7 @@ section {
 
 .banner .content span {
   font-size: 2rem;
-  color: #8badd4;
+  color: #689748;
 }
 
 .banner .content h3 {
@@ -660,7 +661,7 @@ section {
 
 .footer .box-container .box p i {
   padding-right: .5rem;
-  color: #8badd4;
+  color: #689748;
 }
 
 .footer .box-container .box .share {
@@ -674,14 +675,14 @@ section {
   font-size: 2rem;
   border-radius: 50%;
   font-size: 1.7rem;
-  border: 0.2rem solid #8badd4;
-  color: #8badd4;
+  border: 0.2rem solid #689748;
+  color: #689748;
   margin-right: .5rem;
   text-align: center;
 }
 
 .footer .box-container .box .share a:hover {
-  background: #8badd4;
+  background: #689748;
   color: #111;
 }
 
@@ -693,7 +694,7 @@ section {
 }
 
 .footer .box-container .box .links:hover {
-  color: #8badd4;
+  color: #689748;
 }
 
 .footer .box-container .box .links:hover i {
@@ -702,13 +703,13 @@ section {
 
 .footer .box-container .box .links i {
   padding-right: .5rem;
-  color: #8badd4;
+  color: #689748;
 }
 
 .footer .box-container .box form .email {
   width: 100%;
   border-radius: 5rem;
-  border: 0.2rem solid #8badd4;
+  border: 0.2rem solid #689748;
   background: none;
   font-size: 1.5rem;
   text-transform: none;
@@ -726,7 +727,7 @@ section {
 }
 
 .credit span {
-  color: #8badd4;
+  color: #689748;
 }
 
 @media (max-width: 991px) {
@@ -750,7 +751,7 @@ section {
     top: 99%;
     left: 0;
     right: 0;
-    background: #8badd4;
+    background: #689748;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
