@@ -4,11 +4,10 @@
 .backgroud-detail-travel{
     width: 100%;
     min-height: 60vh;
-    background-color: red;
     display: flex;
 }
 .backgroud-detail-travel .img{
-    width: 34%;
+    width: 33.333333%;
     background-size: 100% 100%;
 }
 .content-travel{
