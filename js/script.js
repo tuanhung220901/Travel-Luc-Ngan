@@ -1,3 +1,4 @@
+import {render_Travel} from "./render_travel.js"
 let navbar = document.querySelector('.header .navbar');
 
 document.querySelector('#menu-btn').onclick = () =>{
@@ -14,3 +15,4 @@ document.querySelectorAll('.about .video-container .controls .control-btn').forE
         document.querySelector('.about .video-container .video').src = src;
     }
 })
+render_Travel();

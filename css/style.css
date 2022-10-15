@@ -149,7 +149,7 @@ section {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 5rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 .home .content {
