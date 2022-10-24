@@ -3,6 +3,7 @@ function render_Travel(){
     let renderTravel = document.querySelector(".render-travel")
     var delay = 0;
     let htmls = dataTravel.map(data => {
+        if(data.check == true)
         return `
         <div class="box" data-aos="fade-up" data-aos-delay="${delay += 150}">
             <div class="image">

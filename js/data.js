@@ -1,11 +1,35 @@
 let dataTravel = [
     {   
+        check: true,
         id:"1",
         title: "Hồ Cấm Sơn",
         content: "Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing.",
-        img:"./images/CamSon/Cấm Sơn 1.jpg"
+        img:"./images/CamSon/Cấm Sơn 1.jpg",
+        listTitle:["Vị trí","Diện Tích","Đặc điểm"],
+        listContent:[
+            `- Hồ Cấm Sơn ở địa phận huyện Lục Ngạn (tỉnh Bắc Giang) giáp ranh giới Lạng Sơn
+            `,
+            `- Hồ Cấm Sơn có tổng diện tích mặt nước hơn 2,6 nghìn ha với rất nhiều hòn đảo. Xung quanh hồ là những dãy núi cao bao bọc, hay nói cách khác bờ của hồ chính là các dãy núi điệp trùng và cây cao bóng ngả. Lòng hồ trải rộng, giáp ranh với nhiều địa phương trong và ngoài tỉnh. Trong đó, tiếp giáp 5 xã, thị trấn của huyện Hữu Lũng, Chi Lăng (Lạng Sơn) và 4 xã của huyện Lục Ngạn là: Cấm Sơn, Sơn Hải, Hộ Đáp, Tân Sơn. 
+            `,
+            `- Nếu có dịp đi du lịch Tây Yên Tử, du khách có thể ghé vào tham quan hồ Cấm Sơn bất cứ thời điểm nào trong năm, tuy nhiên theo Review tham quan hồ Cấm Sơn của nhiều du khách, mùa hè là thời điểm hồ Cấm Sơn đẹp nhất. Vì mùa hè miền Bắc khá oi bức, mà cả không gian hồ vao thời điểm này là mát mẻ và bừng sức sống, một địa điểm tránh nóng nghỉ dưỡng tuyệt vời.
+            - Ngoài mùa hè, mùa thu cũng làm cho cảnh sắc hồ Cấm Sơn trở nên lãng mạn với từng đợt gió heo may lướt trên nước hồ gợn nhẹ, cây cối xung quanh đều chuyển sang màu ngả vàng.
+            Du lịch Hồ Cấm Sơn, du khách cùng bạn bè gia đình có thể tắm hồ, thực hiện hoạt động dã ngoại, cắm trại tại hồ Cấm Sơn. 
+            Nếu phía Nam có hồ Dầu Tiếng thì Miền Bắc có hồ Cấm Sơn Bắc Giang, Cấm Sơn chính là hồ thuỷ nông lớn nhất miền Bắc có dung tích 248 triệu m³ nước. Ngoài giá trị về mặt kinh tế, hồ còn rất nổi tiếng về mặt du lịch tham quan nghỉ dưỡng ở miền Bắc. Bao quanh hồ là những ngọn núi cao quanh năm xanh ngắt một màu, nhấp nhô, trùng điệp. Vẻ đẹp trời, mây, non, nước hòa quyện làm một khiến cảnh quan nơi đây vô cùng thơ mộng, quyến rũ, chẳng khác nào một vịnh Hạ Long thu nhỏ. Với vẻ đẹp sơn thủy hữu tình, Cấm Sơn chính là nguồn cảm hứng để nhạc sỹ Phó Đức Phương sáng tác ca khúc nổi tiếng “Hồ trên núi.”
+            - Tới đây, du khách còn được tìm hiểu một kho tàng văn hóa vô cùng đặc sắc của các dân tộc nơi đây, được chiêm ngưỡng những nếp nhà sàn độc đáo, được thưởng thức những đêm hội, những làn điệu du dương mà lôi cuốn của người dân. Đến đây, du khách sẽ được tham gia những chợ phiên, được thưởng thức nhiều món ăn hấp dẫn như chè lam, xôi bảy màu, gà đồi, thịt lợn cắp nách và nhiều loại trái cây thơm ngon đặc trưng của vùng núi Đông Bắc
+            
+            `
+        ],
+        listImage:[ 
+            "./images/CamSon/Cấm Sơn 1.jpg",
+            "./images/CamSon/Cấm sơn 3.jpg",
+            "./images/CamSon/ThapCamSon.jpg",
+            "./images/CamSon/Cấm Sơn 1.jpg",
+            "./images/CamSon/Cấm sơn 2.jpg",
+            "./images/CamSon/Cấm Sơn 4.jpg",
+        ]
     },
     {   
+        check: true,
         id:"2",
         title: "Chùa Am Vãi",
         content: "Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing.",
@@ -22,13 +46,14 @@ let dataTravel = [
         listImage:[ 
             "./images/ChuaAmVai/Am Vãi 1.jpg",
             "./images/ChuaAmVai/Am Vãi 2.jpg",
-            "./images/ChuaAmVai/Am Vãi 3.jpg",
+            "./images/ChuaAmVai/Am Vãi 6.jpg",
             "./images/ChuaAmVai/Am Vãi 1.jpg",
             "./images/ChuaAmVai/Am Vãi 2.jpg",
-            "./images/ChuaAmVai/Am Vãi 3.jpg",
+            "./images/ChuaAmVai/Am Vãi 6.jpg",
         ]
     },
     {   
+        check: true,
         id:"3",
         title: "Đập Khuân Thần",
         content: "Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing.",
@@ -54,6 +79,7 @@ let dataTravel = [
         ]
     },
     {   
+        check: true,
         id:"4",
         title: "Chùa Khánh Vân",
         content: "Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing.",
@@ -75,6 +101,7 @@ let dataTravel = [
         ]
     },
     {   
+        check: true,
         id:"5",
         title: "Đền Hả",
         content: "Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing.",
@@ -96,6 +123,59 @@ let dataTravel = [
             "./images/DenTuHa/Đền Hả 9.JPG",
             "./images/DenTuHa/Đền Hả 10.JPG",
             "./images/DenTuHa/Đền Hả 6.JPG",
+
+        ]
+    },
+    {   
+        check: true,
+        id:"6",
+        title: "Đập Thum",
+        content: "Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing.",
+        img:"./images/DapThum/Đập thum 1.jpg",
+         listTitle:["Địa điểm","Đặc điểm","Hoạt động"],
+        listContent:[
+            `- Đập Thum nằm ở Đập ở 41, thuộc xã Quý Sơn, Lục Ngạn, Bắc Giang. Tổng diện tích bề mặt nước 5 km2  
+            `,
+            `- Tiềm năng đất đai, nguồn nhân lực trên địa bàn được khai thác hiệu quả. 
+            - Là nơi có khung cảnh rộng với các dãy núi bao quanh các đảo nhỏ.
+            `,
+            `- Đập Thum hiện nay là một trong những địa điểm rất thu hút khách bởi những vườn hoa nở rộ. Khi chúng ta đến đây có thể nghỉ dưỡng, trải nghiệm, cắm trại cùng bạn bè và gia đình. 
+            `
+        ],
+        listImage:[
+            "./images/DapThum/Đập thum 1.jpg",
+            "./images/DapThum/Đập thum 7.jpg",
+            "./images/DapThum/Đập thum 8.jpg",
+            "./images/DapThum/Đập thum 8.jpg",
+            "./images/DapThum/Đập thum 10.jpg",
+            "./images/DapThum/Đập thum 1.jpg",
+
+        ]
+    },
+    {   
+        check: false,
+        id:"7",
+        title: "Mỳ Chũ",
+        content: "Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing.",
+        img:"./images/MyVaRuou/Mỳ chũ 2.jpg",
+         listTitle:["Vị trí","Giá cả","Đặc điểm"],
+        listContent:[
+            `- Hiện nay, làng nghề Mỳ Chũ thôn Thủ Dương, xã Nam Dương, huyện Lục Ngạn có trên 300 hộ sản xuất Mỳ gạo chiếm tới 85% số hộ của làng. Trong đó, trên 100 hộ tham gia vào Hội sản xuất và tiêu thụ Mỳ Chũ Lục Ngạn. Hiện bình quân mỗi ngày, làng nghề sản xuất và tiêu thụ gần 30 tấn mỳ gạo, trong đó Hội sản xuất Mỳ Chũ đã sản xuất và tiêu thụ 10 tấn mỳ, giá trị thu được của làng nghề gần 8 tỷ đồng mỗi năm.
+             - Từ nhiều năm nay sản phẩm Mỳ Chũ luôn là niềm tự hào của mỗi người con quê hương Lục Ngạn. Hiện nay, Mỳ Chũ không chỉ được người tiêu dùng các tỉnh trong cả nước ưa chuộng mà còn có mặt ở những thị trường nước ngoài như các nước Trung Quốc và các nước Tây  u. Với những thành quả đó, Đặc sản Mỳ gạo Chũ của huyện Lục Ngạn chúng ta vô cùng nổi tiếng - chất lượng tạo nên thương  hiệu
+
+            `,
+            `-  thì bình dân cho mọi gia đình, dao động từ 30-35k/1kg
+            `,
+            `-  Những ai đã từng được thưởng thức Mỳ Chũ Lục Ngạn một lần chắc hẳn sẽ khó quên màu trắng sữa, vị ngọt của gạo bao thai. Đặc sản đó chính là sự hoà quyện giữa gạo quê và nguồn nước trong lành của vùng núi đồi sông Lục, cùng đôi bàn tay của thợ lành nghề. Được sản xuất bằng phương pháp gia truyền, không sử dụng các chất bảo quản, hàn the… Cho nên, Mỳ Chũ Lục Ngạn có độ giòn, dẻo, dai và thơm ngon hơn nhiều loại mỳ khác. Các bà nội trợ có thể chế biến thành nhiều món ngon nhanh và đơn giản như mỳ xào giòn, nhúng lẩu, mỳ hải sản hay mỳ bò… Một đặc điểm nổi trội của Mỳ Chũ Lục Ngạn là dù chưa kịp ăn ngay sau khi nấu thì khi để nguội mỳ vẫn không bị nát. Đến khi cần sử dụng chỉ cần thêm chút nước đun sôi là lại có tô mỳ ngon như vừa nấu từ bếp. Để Mỳ Chũ sử dụng được lâu hơn, bạn nên bảo quản ở những nơi thoáng mát, khô ráo, không nên để mỳ tiếp xúc với ánh nắng mặt trời.
+            `
+        ],
+        listImage:[
+            "./images/MyVaRuou/Mỳ chũ 2.jpg",
+            "./images/MyVaRuou/Mỳ chũ.jpg",
+            "./images/MyVaRuou/Mỳ chũ 4.jpg",
+            "./images/MyVaRuou/Mỳ chũ 3.jpg",
+            "./images/MyVaRuou/Mỳ chũ 2.jpg",
+            "./images/MyVaRuou/Mỳ chũ.jpg",
 
         ]
     },

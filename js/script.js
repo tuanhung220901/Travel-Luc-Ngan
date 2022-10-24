@@ -15,4 +15,11 @@ document.querySelectorAll('.about .video-container .controls .control-btn').forE
         document.querySelector('.about .video-container .video').src = src;
     }
 })
+let check = document.querySelectorAll(".dacsan")
+check.forEach((btn)=>{
+    btn.addEventListener("click",(e)=>{
+        console.log(btn.getAttribute("value"));
+        sessionStorage.setItem("idTravel",btn.getAttribute("value"))
+    })
+})
 render_Travel();
