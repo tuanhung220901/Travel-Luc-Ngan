@@ -179,5 +179,30 @@ let dataTravel = [
 
         ]
     },
+    {   
+        check: false,
+        id:"9",
+        title: "Vải Thiều",
+        content: "Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing.",
+        img:"./images/MyVaRuou/Mỳ chũ 2.jpg",
+         listTitle:["Nguồn gốc","Thời gian","Đặc điểm"],
+        listContent:[
+            `- Vải thiều còn được gọi là Lệ chi là loại quả thuộc họ Bồ hòn. Vải thiều Lục Ngạn có xuất xứ từ giống vải Thanh Hà – Hải Dương. Năm 1953, ông Nguyễn Đức Trụ quê gốc ở Hải Dương sau khi rời quê lên Lục Ngạn lập nghiệp đã mang theo hạt vải thiều từ quê lên đây trồng với mục đích chính là lưu giữ kỷ niệm. Nhờ thổ nhưỡng và khí hậu phù hợp nên cây vải thiểu sinh trưởng phát triển xanh tốt và cho ra thứ quả ngọt thơm trên vùng đồi khô cằn sỏi đá. Trải qua quá trình chăm sóc, cây vải thiều vươn lên sống mạnh mẽ, nhanh chóng được nhân giống sang các xã khác của huyện Lục Ngạn, từ đây một giống cây ăn quả mới đã được ghi danh trên mảnh đất Lục Ngạn.
+             - toàn huyện lục ngạn có diện tích vải 15,75 nghìn ha. Vải thiều Lục Ngạn thường tập trung chủ yếu tại thị trấn chũ, xã Phượng Sơn, Quý Sơn, Trù Hựu, Hồng Giang và các xã dọc quốc lộ 31.
+            `,
+            `-  Vải thiểu Lục Ngạn bắt đầu chín vào cuối tháng 5 dương lịch, kéo dài tới khoảng đầu tháng 7 dương lịch. Tùy theo điều kiện thời tiết mà mùa vải chín có thể tới sớm hơn hoặc muộn hơn ít ngày. Mùa vải chín là mùa đẹp nhất trong năm ở Lục Ngạn.
+            `,
+            `-  Quả vải thiều khi chín có màu đỏ, vỏ mỏng, hạt nhỏ cùi dày khi ăn vải thiều có vị ngọt đậm khiến người ăn cứ muốn thưởng thức thêm và muốn mua thật nhiều để làm quà cho người thân. Đến đây du khách không chỉ được thưởng thức loại quả "tiến vua" này mà còn được trải nghiệm thu hoạch nó. Đó là những trải nghiệm khó quên. Với hương vị thơm ngon đặc trưng khác hẳn với những nơi khác nên vải thiều Lục Ngạn không chỉ nổi tiếng trong nước mà còn có mặt ở nhiều quốc gia trên thế giới như: Trung Quốc, Thái Lan, Mỹ, Astralia và nhiều quốc gia khác.
+            `
+        ],
+        listImage:[
+            "./images/VaiThieu/1.jpg",
+            "./images/VaiThieu/2.jpg",
+            "./images/VaiThieu/3.jpg",
+            "./images/VaiThieu/Vải 12.jpg",
+            "./images/VaiThieu/Vải thiều 1.jpg",
+            "./images/VaiThieu/Vải 13.jpg",
+        ]
+    },
 ]
 export default dataTravel;

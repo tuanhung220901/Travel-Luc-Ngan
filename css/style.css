@@ -63,16 +63,16 @@ section {
   display: inline-block;
   padding: 1rem 3rem;
   font-size: 1.7rem;
-  color: #ffffff;
-  border: 0.2rem solid #ffffff;
+  color: #689748;
+  border: 0.2rem solid #689748;
   border-radius: 5rem;
   cursor: pointer;
   background: none;
 }
 
 .btn:hover {
-  background: #ffffff;
-  color: #689748;
+  background: #689748;
+  color: #fff;
 }
 
 .header {
@@ -111,7 +111,7 @@ section {
 
 .logo {
   font-size: 2.5rem;
-  color: #fff;
+  color: #689748;
   font-weight: bolder;
 }
 
@@ -648,7 +648,7 @@ section {
 
 .footer .box-container .box h3 {
   font-size: 2.2rem;
-  color: #fff;
+  color: #689748;
   padding: 1rem 0;
 }
 
