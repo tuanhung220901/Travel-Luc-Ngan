@@ -11,7 +11,7 @@ function render_Travel(){
             </div>
             <div class="content">
                 <h3>${data.title}</h3>
-                <p>${data.content}</p>
+               
                 <a href="./detail_Travel.html" value = '${data.id}' class = "travel">Đọc thêm <i class="fas fa-angle-right"></i></a>
             </div>
         </div>

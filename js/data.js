@@ -204,5 +204,31 @@ let dataTravel = [
             "./images/VaiThieu/Vải 13.jpg",
         ]
     },
+    {   
+        check: false,
+        id:"10",
+        title: "Rượu Kiên Thành",
+        content: "Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing.",
+        img:"./images/MyVaRuou/Mỳ chũ 2.jpg",
+         listTitle:["Nguồn gốc","Địa điểm","Đặc điểm"],
+        listContent:[
+            `- Rượu men lá Kiên Thành không biết có từ bao giờ, theo nhiều người có tuổi ở đây, khi họ sinh ra và lớn lên đều đã thấy ông bà, cha mẹ mình nấu rượu rồi. Nhà buôn bán thì nấu nhiều, nhà không thương mại thì một năm cũng nấu 1,2 nồi để uống trong gia đình và tiếp khách những ngày lễ tết của người dân tộc Nùng
+            `,
+            `-  Xã kiên Thành – Lục Ngạn
+            `,
+            `- “Rượu men lá Kiên Thành mang đặc trưng riêng của núi rừng Lục Ngạn, nó khác với loại rượu khác vì nó có 7 loại lá và rễ cây trong rừng. Trong đó, cây trăm rễ quyết định khá lớn trong việc hình thành men, ngoài ra còn có lá cây Puông cai, Vạt Dính…
+            Trong 7 loại này, có một loại rễ cây đun nước lên, để nguội, gạo đãi sạch ngâm với nước này 2 tiếng, để ráo mới trộn với bột được nghiền ra từ các loại lá và rễ cây rừng. Sau đó lấy chấu ủ mấy ngày trong chăn để lên men. Khi đã thành men phải để trong bóng mát vài hôm rồi mới cho ra nắng phơi, mất từ 15 đến 20 ngày mới được một mẻ men để làm rượu. Men rượu thành thì thân viên men trắng đều đẹp, men không thành sẽ bị đen, xỉn màu”.
+            - Công đoạn làm men đã vất vả, công đoạn nấu rượu thủ công cũng thật kỳ công. Theo đó từ khâu chọn gạo đến khâu nấu chín, trộn men thật là tỉ mỉ. Cơm khi nấu chín rồi thì ủ cho “bắt men lá” khoảng từ 10 đến 12 ngày; Sau đó đổ nước cho thẩm thấu men với gạo khoảng 2-3 ngày nữa. Khâu cuối cùng là trưng cất bằng ba ba (ba ba phải được làm bằng gỗ mít) và ống dẫn rượu. phải được làm bằng tre thì rượu mới ngon. Trong quá trình cất phải đun đều lửa, không cho cháy to quá cũng không nhỏ quá để rượu ra từ từ. Nếu đun to lửa, rượu ra nhanh sẽ mất mùi thơm. Thông thường mỗi kg gạo bà con nơi đây trưng cất được 1 lít rượu men lá.        
+            `
+        ],
+        listImage:[
+            "./images/ruouKienThanh/1.jpg",
+            "./images/ruouKienThanh/2.jpg",
+            "./images/ruouKienThanh/3.jpg",
+            "./images/ruouKienThanh/4.jpg",
+            "./images/ruouKienThanh/5.jpg",
+            "./images/ruouKienThanh/1.jpg",
+        ]
+    },
 ]
 export default dataTravel;
