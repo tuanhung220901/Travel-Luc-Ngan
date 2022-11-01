@@ -29,6 +29,10 @@ function render_Detail_Travel(){
     <h3 class="title-2">${data.listTitle[2]}</h3>
     <div class="content-2">${data.listContent[2]}</div>
     <img class="img-detail-travel" src="${data.listImage[5]}" alt="">
+    <div class = "video-container-youtube" id = "check_video">
+        ${data.video}
+    </div>
+    <h3 class="title-2">Bình luận</h3>
     <div class="fb-comments" data-href="https://tuanhung220901.github.io/Travel-Luc-Ngan/" data-width="100%" data-numposts="5"></div>
 </div>`
 }

@@ -26,7 +26,8 @@ let dataTravel = [
             "./images/CamSon/Cấm Sơn 1.jpg",
             "./images/CamSon/Cấm sơn 2.jpg",
             "./images/CamSon/Cấm Sơn 4.jpg",
-        ]
+        ],
+        video: `<iframe width="1280" height="720" src="https://www.youtube.com/embed/s2ADxSxZh08" title="Hồ Cấm Sơn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {   
         check: true,
@@ -50,7 +51,8 @@ let dataTravel = [
             "./images/ChuaAmVai/Am Vãi 1.jpg",
             "./images/ChuaAmVai/Am Vãi 2.jpg",
             "./images/ChuaAmVai/Am Vãi 6.jpg",
-        ]
+        ],
+        video: "",
     },
     {   
         check: true,
@@ -76,7 +78,8 @@ let dataTravel = [
             "./images/DapKhuanThan/Khuôn thần 2.jpeg",
             "./images/DapKhuanThan/Khuôn thần 6.jpg",
             "./images/DapKhuanThan/Khuôn thần 1.jpg",
-        ]
+        ],
+        video:`<iframe width="1280" height="720" src="https://www.youtube.com/embed/6lSplPmMSsg" title="Khuôn thần" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {   
         check: true,
@@ -98,7 +101,8 @@ let dataTravel = [
             "./images/ChuaKhanhVan/Chùa Khánh Vân 1.JPG",
             "./images/ChuaKhanhVan/Chùa Khánh Vân 3.JPG",
             "./images/ChuaKhanhVan/Chùa Khánh Vân 4.JPG",
-        ]
+        ],
+        video: `<iframe width="1280" height="720" src="https://www.youtube.com/embed/CDYX8MBtAmk" title="Chùa Khánh Vân" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {   
         check: true,
@@ -124,7 +128,8 @@ let dataTravel = [
             "./images/DenTuHa/Đền Hả 10.JPG",
             "./images/DenTuHa/Đền Hả 6.JPG",
 
-        ]
+        ],
+        video:`<iframe width="1280" height="720" src="https://www.youtube.com/embed/w01T8RF3Ikw" title="Đền Hả" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {   
         check: true,
@@ -150,7 +155,8 @@ let dataTravel = [
             "./images/DapThum/Đập thum 10.jpg",
             "./images/DapThum/Đập thum 1.jpg",
 
-        ]
+        ],
+        video:``
     },
     {   
         check: false,
@@ -177,7 +183,8 @@ let dataTravel = [
             "./images/MyVaRuou/Mỳ chũ 2.jpg",
             "./images/MyVaRuou/Mỳ chũ.jpg",
 
-        ]
+        ],
+        video:``
     },
     {   
         check: false,
@@ -202,7 +209,8 @@ let dataTravel = [
             "./images/VaiThieu/Vải 12.jpg",
             "./images/VaiThieu/Vải thiều 1.jpg",
             "./images/VaiThieu/Vải 13.jpg",
-        ]
+        ],
+        video:`<iframe width="1280" height="720" src="https://www.youtube.com/embed/U6UzqoTiRrw" title="Vải thiều" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {   
         check: false,
