@@ -47,10 +47,10 @@ let dataTravel = [
         listImage:[ 
             "./images/ChuaAmVai/Am Vãi 1.jpg",
             "./images/ChuaAmVai/Am Vãi 2.jpg",
-            "./images/ChuaAmVai/Am Vãi 6.jpg",
+            "./images/ChuaAmVai/Am Vãi 7.jpg",
             "./images/ChuaAmVai/Am Vãi 1.jpg",
             "./images/ChuaAmVai/Am Vãi 2.jpg",
-            "./images/ChuaAmVai/Am Vãi 6.jpg",
+            "./images/ChuaAmVai/Am Vãi 7.jpg",
         ],
         video: "",
     },
