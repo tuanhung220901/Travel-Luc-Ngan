@@ -236,7 +236,8 @@ let dataTravel = [
             "./images/ruouKienThanh/4.jpg",
             "./images/ruouKienThanh/5.jpg",
             "./images/ruouKienThanh/1.jpg",
-        ]
+        ],
+        video:""
     },
 ]
 export default dataTravel;
